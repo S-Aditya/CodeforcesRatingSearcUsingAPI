@@ -1,0 +1,13 @@
+<h1>Results Page</h1>
+
+<h2> User handle : <%= data["result"][0]["handle"] %> </h2>
+
+<% data["result"].forEach(function(detail){ %>
+    
+    <h3> Rating before contest <%= detail["oldRating"] %> </h3>
+
+    <h3> Rating after contest <%= detail["newRating"] %> </h3>
+
+    <p>-------------------------------------------------------------------------</p>
+    
+<% }) %>
