@@ -1,5 +1,7 @@
 # To run this file in your system
 
+# Chup chap accept karo nahi to bhut bura hoga
+
 ## clone this repo and run npm i
 
 ## run this using npm start
